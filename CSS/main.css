@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    width:800px;
+    height: 200px;
+    background-color: #36179c;
+    margin: 0 auto;
+    /* margin: 0 auto; digunakan untuk mengatur posisi elemen agar berada di tengah */
+}
+#judul{
+    color: #fff;
+    text-align: center;
+    font-size:30px;
+    text-transform: uppercase;
+    padding-top: 70px;
+
+}
+#nav{
+    background: blueviolet;
+   
+    width: 800px;
+    color: white;
+    margin: 0 auto;
+}
+#nav ul{
+    list-style: none;
+}
+#nav ul li{
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}

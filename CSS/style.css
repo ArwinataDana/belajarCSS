@@ -7,6 +7,8 @@ h1{
     padding-right: 100px;
     padding-top: 100px;
     padding-bottom: 100px;
+    /* # diginakan untuk id */
+    /* . digunakan untuk class */
 }
 p{
     color: blueviolet;
@@ -24,4 +26,40 @@ p{
 #terserah h1{
     background-color: transparent;
     border: none;
+}
+#kotaksatu{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    display: inline-block;
+    border: 1px solid green;
+}
+#kotakdua{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    display: inline-block;
+
+}
+#kotaktiga{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    display: inline-block;
+/* display: inline-block; digunakan untuk menampilkan kotak secara berderet */
+}
+#lingkaran{
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+    display: block;
+    border-radius: 50px;
+    /* border-radius digunakan untuk membuat lingkaran */
+}
+#persegipanjang{
+    width: 30%;
+    height: 50px;
+    background-color: pink;
+    display: block;
+
 }
